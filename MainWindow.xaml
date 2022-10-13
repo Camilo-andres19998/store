@@ -72,20 +72,107 @@
                             
                             <Image Grid.Column="0"
                                    HorizontalAlignment="Center"
-                                   VerticalAlignment="Center"/>
+                                   VerticalAlignment="Center"
+                                   Source="/SCS/IMG/setting.jpg"/>
                             
                             
                         </Grid>
                             
                     </Button>
                     
+                 
+
+                    <!--#REGION INFO  -->
+                    <Button x:Name="BtnInfo"
+                            Grid.Column="1"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                            Foreground="Black"
+                            FontSize="15"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Right"
+                            Cursor="Hand">
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition/>
+
+                            </Grid.ColumnDefinitions>
+                            <Image Source="/SCS/IMG/info.png"
+                                   Grid.Column="0"
+                                 
+                                   VerticalAlignment="Center"/>
+
+                            <TextBlock Text="Acerca de"
+                                       Grid.Column="1"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       
+                                         
+                                   
+                                   
+                                   
+                                   Margin="5,0,0,0"/>
+                          
+                        </Grid>
+                        
+                    </Button>
+                    
+                    
+
                     <!--#ENDREGION -->
+                    
+                    
+
+                    <!--# Region minimizar -->
+                    <Button x:Name="BtnMinimizar"
+                        Grid.Column="2"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                            Height="25"
+                            Width="25"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Margin="0,5,30,0">
+                        <Image Source="/SCS/IMG/minimize.png"
+                               Cursor="Hand" RenderTransformOrigin="0.6,1.047" Height="25"/>
+
+
+
+                    </Button>
+                    
+
+                    <!--#ENDREGION -->
+
+
+                    <!--# Region cerrar -->
+                    <Button x:Name="BtnCerrar"
+                        Grid.Column="2"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                            Height="25"
+                            Width="25"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Margin="0,5,5,0">
+                        <Image Source="/SCS/IMG/close.png"
+                               Cursor="Hand" RenderTransformOrigin="0.882,0.920" Height="35"/>
+
+
+
+                    </Button>
+
+
+                    <!--#ENDREGION -->
+
+
 
                 </Grid>
 
-            </Grid> 
-            
-            
+            </Grid>
+            <!--#ENDREGION -->
+
         </Grid>
     </Border>
     

@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="SCS\IMG\" />
+    <None Remove="SCS\IMG\setting.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="SCS\IMG\setting.jpg" />
   </ItemGroup>
 
 </Project>
